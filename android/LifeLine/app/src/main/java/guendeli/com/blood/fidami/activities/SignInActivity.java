@@ -34,8 +34,7 @@ public class SignInActivity extends BaseActivity implements LoginView {
         ButterKnife.bind(this);
 
         loginPresenter = new LoginPresenterImpl(this);
-
-        if (ParseUser.getCurrentUser() != null) {
+       if (ParseUser.getCurrentUser() != null) {
             navigateToHome();
         }
     }

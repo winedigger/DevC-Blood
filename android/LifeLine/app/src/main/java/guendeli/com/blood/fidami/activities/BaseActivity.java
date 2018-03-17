@@ -2,14 +2,14 @@ package guendeli.com.blood.fidami.activities;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import guendeli.com.blood.fidami.R;
 
 /**
  * Created by dino on 22/11/14.
  */
-public class BaseActivity extends ActionBarActivity {
+public class BaseActivity extends AppCompatActivity {
 
     private ProgressDialog progressDialog;
 

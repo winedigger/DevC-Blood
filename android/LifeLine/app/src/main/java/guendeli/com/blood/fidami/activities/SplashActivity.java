@@ -4,14 +4,14 @@ import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
 import butterknife.ButterKnife;
 import butterknife.BindView;
 import guendeli.com.blood.fidami.R;
 
-public class SplashActivity extends ActionBarActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @BindView(R.id.loading_image)
     protected ImageView animationImage;
